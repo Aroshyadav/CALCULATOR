@@ -2,6 +2,7 @@
 </html>
 <head>
         <title>BASIC CALCULATOR</title>
+        <script>"file.js"</script>
 </head>
 <body style="background-color:lightgreen;boder:5px">
         <h1 style="color:blue;">Do Arithmatic With Your Brain Coins</h1>
@@ -14,21 +15,21 @@
         </ul>
         <h3>
 <div>
-        <form action="process.php" method="POST" pstyle="border:3px;color:violet;">
+        <form  pstyle="border:3px;color:violet;">
 <section>
 <label>Enter your first coin</label>
-<input type="number" name="number1">;
+<input type="number" id="number1">;
 </section>
 <section>
 <label>Enter the operand</label>
-<input type="string" name="operand">
+<input type="string" id="operand">
 </section>
 <section>
 <label>Enter your second coin</label>
-<input type="number" name="number2">
+<input type="number" id="number2">
 </section>
 <section>
-<button type="submit">GET THE RESULT</button>
+<button type="submit" onclick="process()">GET THE RESULT</button>
 <section>
 </form>
 </div>
