@@ -4,14 +4,14 @@
         <title>BASIC CALCULATOR</title>
 </head>
 <body style="background-color:lightgreen;boder:5px">
-        <h1 style="color:blue;">Do Arithmatic With Your Brain Coins<h1>
+        <h1 style="color:blue;">Do Arithmatic With Your Brain Coins</h1>
         <h3 style="color:red;">Applicable operations are: <br>
         <ul>
         <list>Addition</list>
         <list>Substraction</list>
         <list>Division</list>
         <list>Multiplication</list>
-        <ul>
+        </ul>
         <h3>
 <div>
         <form action="process.php" method="POST" pstyle="border:3px;color:violet;">
@@ -28,7 +28,7 @@
 <input type="number" name="number2">
 </section>
 <section>
-<button type="submit">GET THE RESULT<button>
+<button type="submit">GET THE RESULT</button>
 <section>
 </form>
 </div>
